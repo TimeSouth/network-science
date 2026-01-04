@@ -1,7 +1,6 @@
 """
 基于结构摄动理论与反事实推演的社会生态相容性匹配方法实验
 ============================================================
-实现报告第4章的实验设计与模拟
 """
 
 import numpy as np
@@ -12,7 +11,6 @@ from collections import defaultdict
 import warnings
 warnings.filterwarnings('ignore')
 
-# 设置中文字体
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei', 'DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
